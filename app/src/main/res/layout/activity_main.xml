@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:foregroundGravity="center_vertical|center"
+    app:layout_anchorGravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="384dp"
+        android:layout_height="60dp"
+        android:foregroundGravity="left|bottom|center|center_horizontal"
+        android:textAlignment="center"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:shadowRadius="20"
+            android:text="Donation Management"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/teal_200"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            tools:ignore="MissingClass" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="351dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/donatepage" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/insertbtn"
+        android:layout_width="294dp"
+        android:layout_height="66dp"
+        android:background="@drawable/roundbtn"
+        android:backgroundTint="#FFFEA8"
+        android:text="Insert Donations"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200"
+        android:textColorLink="#1DE9B6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Upbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Upbtn"
+        android:layout_width="284dp"
+        android:layout_height="68dp"
+        android:background="@drawable/roundbtn"
+        android:backgroundTint="#FFFEA8"
+        android:text="Update Donations"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/deletebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertbtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/deletebtn"
+        android:layout_width="286dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundbtn"
+        android:backgroundTint="#FFFEA8"
+        android:text="Remove Donations"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Upbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
