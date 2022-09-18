@@ -36,14 +36,13 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="209dp"
-        android:layout_height="217dp"
+        android:layout_width="224dp"
+        android:layout_height="159dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintHorizontal_bias="0.283"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877"
         app:srcCompat="@drawable/background3" />
 
     <ImageView
@@ -83,7 +82,7 @@
             android:fontFamily="sans-serif"
             android:gravity="center"
             android:shadowRadius="20"
-            android:text="Donation Management"
+            android:text="Update Donations"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -96,62 +95,49 @@
 
     <ImageView
         android:id="@+id/donateimage"
-        android:layout_width="375dp"
-        android:layout_height="145dp"
-        android:layout_marginTop="120dp"
+        android:layout_width="348dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="148dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/donatepage" />
+        app:srcCompat="@drawable/updatedon" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/insertbtn"
-        android:layout_width="294dp"
-        android:layout_height="66dp"
+        android:layout_width="311dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/roundbtn"
         android:backgroundTint="@color/def_btn_color"
-        android:text="Insert Donations"
+        android:text="Update Donation Amount"
         android:textAllCaps="false"
         android:textColor="@color/startcolor_wel_grad"
         android:textColorLink="#1DE9B6"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/Upbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/donateimage" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Upbtn"
-        android:layout_width="284dp"
-        android:layout_height="68dp"
+        android:id="@+id/insertbtn2"
+        android:layout_width="323dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/roundbtn"
         android:backgroundTint="@color/def_btn_color"
         android:text="Update Donations"
         android:textAllCaps="false"
         android:textColor="@color/startcolor_wel_grad"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/deletebtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/insertbtn" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/deletebtn"
-        android:layout_width="286dp"
-        android:layout_height="61dp"
-        android:background="@drawable/roundbtn"
-        android:backgroundTint="@color/def_btn_color"
-        android:text="Remove Donations"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/startcolor_wel_grad"
+        android:textColorLink="#1DE9B6"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Upbtn" />
+        app:layout_constraintTop_toBottomOf="@+id/insertbtn"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

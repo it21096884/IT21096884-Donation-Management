@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/drawable/background.xml" value="0.1185" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/drawable/background2.xml" value="0.1425" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/drawable/background3.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/drawable/circlebtn.xml" value="0.1185" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/drawable/donationbackground.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/drawable/roundbtn.xml" value="0.1185" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/layout/activity_insert_donations.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/layout/activity_insert_donpage2.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/layout/activity_select_donations.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/layout/activity_update_donation_main_interface.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Desktop/DonationManagementPage3/app/src/main/res/layout/list_items.xml" value="0.25" />
       </map>
     </option>
   </component>

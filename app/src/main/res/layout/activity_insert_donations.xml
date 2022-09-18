@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertDonations">
+
+
+    <ImageView
+        android:id="@+id/instr_background1"
+        android:layout_width="229dp"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/donationbackground" />
+
+    <ImageView
+        android:id="@+id/instr_background2"
+        android:layout_width="249dp"
+        android:layout_height="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397"
+        app:srcCompat="@drawable/background2" />
+
+    <ImageView
+        android:id="@+id/instr_background4"
+        android:layout_width="263dp"
+        android:layout_height="383dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866"
+        app:srcCompat="@drawable/background2" />
+
+    <ImageView
+        android:id="@+id/instr_background15"
+        android:layout_width="189dp"
+        android:layout_height="163dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background3" />
+
+    <ImageView
+        android:id="@+id/instr_background3"
+        android:layout_width="185dp"
+        android:layout_height="251dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139"
+        app:srcCompat="@drawable/background2" />
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/add_event_form"
+        android:layout_width="369dp"
+        android:layout_height="554dp"
+        android:padding="@dimen/edti_text_padding"
+        app:cardCornerRadius="@dimen/wel_corner_rad"
+        app:cardElevation="@dimen/welcome_tag"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="341dp"
+            android:layout_height="523dp">
+
+            <EditText
+                android:id="@+id/donationlist1"
+                android:layout_width="303dp"
+                android:layout_height="73dp"
+                android:layout_margin="@dimen/form_content_pad"
+                android:hint="@string/enter_tittle_for_post"
+                android:minHeight="50dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintHorizontal_bias="0.416"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.034" />
+
+
+            <EditText
+                android:id="@+id/add_eventdesc"
+                android:layout_width="306dp"
+                android:layout_height="64dp"
+                android:layout_margin="@dimen/button_pad"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="29dp"
+
+                android:hint="@string/oragization"
+
+                android:maxLines="3"
+                android:minHeight="48dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/donationlist1" />
+
+
+            <EditText
+                android:id="@+id/add_eventloc"
+                android:layout_width="306dp"
+                android:layout_height="71dp"
+                android:layout_margin="@dimen/button_pad"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="33dp"
+                android:hint="@string/enter_don_location"
+                android:minHeight="48dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_eventdesc" />
+
+            <EditText
+                android:id="@+id/add_phone_number"
+                android:layout_width="309dp"
+                android:layout_height="53dp"
+                android:layout_margin="@dimen/button_pad"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="29dp"
+                android:hint="@string/enter_phone_number"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_eventloc" />
+
+            <EditText
+                android:id="@+id/donationlist"
+                android:layout_width="308dp"
+                android:layout_height="74dp"
+                android:layout_margin="@dimen/form_content_pad"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="32dp"
+                android:hint="@string/enter_donlist"
+                android:minHeight="50dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_phone_number" />
+
+            <EditText
+                android:id="@+id/totamount"
+                android:layout_width="298dp"
+                android:layout_height="55dp"
+                android:layout_margin="@dimen/button_pad"
+                android:layout_marginTop="28dp"
+                android:hint="@string/Amount"
+                android:inputType="number"
+                android:maxLines="3"
+                android:minHeight="48dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.35"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/donationlist" />
+
+            <Button
+                android:id="@+id/nextbtn"
+                android:layout_width="197dp"
+                android:layout_height="51dp"
+                android:layout_margin="@dimen/button_pad"
+                android:layout_marginBottom="36dp"
+                android:backgroundTint="#FFFEA8"
+                android:onClick="adddonation"
+                android:padding="@dimen/button_pad"
+                android:text="@string/insertBtn"
+                android:textColor="@color/startcolor_wel_grad"
+                android:textColorHighlight="@color/def_btn_color"
+                android:textColorLink="@color/def_btn_color"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/totamount"
+                app:layout_constraintVertical_bias="0.0"
+
+
+                app:rippleColor="@color/def_btn_color"
+                tools:ignore="OnClick" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/add_event_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/Add_an_event"
+        android:textColor="@color/startcolor_wel_grad"
+        android:textSize="@dimen/welcome_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="272dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="@+id/add_event_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_event_banner"
+        app:layout_constraintVertical_bias="0.017"
+        app:srcCompat="@drawable/donation" />
+</androidx.constraintlayout.widget.ConstraintLayout>
